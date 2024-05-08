@@ -68,86 +68,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/terhinurmikko/leaf_workshops/main/exercises/Congress_Letter/congress_letter_exercise.xml?person_annotation_20240508145121108",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-05-08T18:51:21.108Z",
-	"dcterms:modified": "2024-05-08T18:51:21.108Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/terhinurmikko",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Terhi Nurmikko-Fuller"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/terhinurmikko/leaf_workshops/main/exercises/Congress_Letter/congress_letter_exercise.xml?person_annotation_20240508145121108#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/terhinurmikko/leaf_workshops/main/exercises/Congress_Letter/congress_letter_exercise.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/terhinurmikko/leaf_workshops/main/exercises/Congress_Letter/congress_letter_exercise.xml?person_annotation_20240508145121108#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/closer/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q465335",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/terhinurmikko/leaf_workshops/main/exercises/Congress_Letter/congress_letter_exercise.xml?place_annotation_20240508145436780",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-05-08T18:54:36.780Z",
@@ -224,8 +144,7 @@
 				floor of Congress and so may be said to be heard there, women
 				who are allowed no vote and therefore no representation cannot truly be heard except
 				as Congress shall open its doors to us in person.</p>
-			<closer><persName key="Elizabeth Cady Stanton" ref="http://www.wikidata.org/entity/Q465335" cert="high" type="real">Elizabeth Cady
-						Stanton</persName> 
+			<closer><persName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" key="Elizabeth Cady Stanton" ref="http://www.wikidata.org/entity/Q465335" type="real">Elizabeth Cady Stanton</persName> 
 				Isabella Beecher Hooker 
 				Elizabeth S. Bladen 
 				Olympia Brown 
